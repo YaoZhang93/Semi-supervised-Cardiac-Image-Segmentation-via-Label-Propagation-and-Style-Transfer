@@ -34,7 +34,7 @@ which won the 2nd place in MICCAI 2020 Multi-Centre, Multi-Vendor &amp; Multi-Di
 
 * Train a preliminary model with both labelled and unlabelled data.
 
-  - Preprocess the data referring to ![the usage of nnUNet](https://github.com/MIC-DKFZ/nnUNet#how-to-run-nnu-net-on-a-new-dataset).
+  - Preprocess the data referring to [the usage of nnUNet](https://github.com/MIC-DKFZ/nnUNet#how-to-run-nnu-net-on-a-new-dataset).
 
   - In `nnunet_semi_sup`, train the model by `python run/run_trainin.py 3d_fullres nnUNetTrainerV2 TASK_ID fold=all`.
 
@@ -42,7 +42,7 @@ which won the 2nd place in MICCAI 2020 Multi-Centre, Multi-Vendor &amp; Multi-Di
 
 * Finetune the model with with both original and trasferred data.
 
-  - Preprocess the data referring to ![the usage of nnUNet](https://github.com/MIC-DKFZ/nnUNet#how-to-run-nnu-net-on-a-new-dataset).
+  - Preprocess the data referring to [the usage of nnUNet](https://github.com/MIC-DKFZ/nnUNet#how-to-run-nnu-net-on-a-new-dataset).
 
   - Copy the preliminary model to the finetune model path.
 
