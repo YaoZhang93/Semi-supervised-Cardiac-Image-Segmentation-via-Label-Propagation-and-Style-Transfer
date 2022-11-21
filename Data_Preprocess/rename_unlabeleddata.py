@@ -38,7 +38,7 @@ def get_info(filename):
     with open(filename) as f:
         f_csv = csv.reader(f)
         for row in f_csv:
-            info_dict[row[0]] = [row[1], row[2]]
+            info_dict[row[1]] = [row[3], row[4]]
     
     return info_dict
 
